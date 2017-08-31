@@ -1,0 +1,23 @@
+1， 下载
+
+官方下载地址： maven_download， 最新版 apache-maven-3.5.0-bin.tar.gz
+
+官方地址： maven
+
+2， 解压
+
+tar zxvf apache-maven-3.5.0-bin.tar.gz （例如安装目录为： /home/homer/Apache-maven/apache-maven-3.5.0）
+
+3， 安装
+
+1） 编辑 /etc/profile
+
+sudo vi /etc/profile
+
+2） 配置
+
+配置maven安装目录：
+
+export MAVEN_HOME=/home/homer/Apache-maven/apache-maven-3.5.0 // 安装目录
+
+export PATH=${MAVEN_HOME}/bin:${PATH}

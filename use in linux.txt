@@ -1,0 +1,14 @@
+以hadoop开发包为例：
+
+
+ tar -zxvf hadoop-2.6.1-src.tar.gz 
+
+cd /hadoop-2.6.1-src
+
+mvn clean
+
+mvn install 
+
+
+
+等待即可
